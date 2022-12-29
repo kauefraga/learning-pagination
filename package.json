@@ -1,0 +1,13 @@
+{
+  "name": "learning-pagination",
+  "private": true,
+  "engines": {
+    "node": ">=18.12.1",
+    "pnpm": ">=7.16.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
+  "license": "MIT"
+}
