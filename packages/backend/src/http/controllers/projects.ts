@@ -34,11 +34,11 @@ export async function ProjectsController(
   const resultProjects: PaginationResult = {
     previous: startIndex > 0
       ? { page: page - 1, limit }
-      : { page, limit },
+      : null,
     current: projects.slice(startIndex, endIndex),
     next: startIndex > 0
       ? { page: page + 1, limit }
-      : { page, limit },
+      : null,
   };
 
   return response.status(200).json({
